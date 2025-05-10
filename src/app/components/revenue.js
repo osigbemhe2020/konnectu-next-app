@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-const GroupedBarChart = dynamic(() => import('./components/graph.js'), { ssr: false });
+const GroupedBarChart = dynamic(() => import('./graph.js'), { ssr: false });
 
 function Graph() {
     return (
