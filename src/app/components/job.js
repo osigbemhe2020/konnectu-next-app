@@ -1,5 +1,5 @@
 import { CiLocationOn } from "react-icons/ci";
-import Dropdown from './test';
+import Dropdown from './components/test';
 
 
  const Details = () => {
