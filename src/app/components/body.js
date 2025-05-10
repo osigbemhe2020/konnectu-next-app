@@ -1,8 +1,8 @@
 
-import Revenue from './components/revenue.js'
-import Performance from './components/performance.js'
-import Job from './components/job.js'
-import Account from './components/account.js'
+import Revenue from './revenue.js'
+import Performance from './performance.js'
+import Job from './job.js'
+import Account from './account.js'
 
 const Body = () => {
   return (
