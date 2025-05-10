@@ -1,4 +1,17 @@
-import Image from "next/image";
+
+import Menubar from '@/components/menubar.js';
+import Main from '@/components/main.js'
+
+
+export default function HomePage() {
+  return (
+    <div className="App">
+      <Menubar />
+      <Main />
+   </div>
+  );
+}
+/*import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -92,4 +105,4 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+}*/
