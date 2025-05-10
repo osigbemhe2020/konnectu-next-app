@@ -1,7 +1,7 @@
-import user from '@/lib/user';
+import user from './lib/user';
 import { FaStar } from "react-icons/fa6";
 import { MdAccountCircle } from "react-icons/md";
-import MyProgress from '@/components/progress';
+import MyProgress from './components/progress';
 
 
 
