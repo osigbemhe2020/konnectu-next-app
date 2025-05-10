@@ -632,7 +632,9 @@ a{
     height: auto;
    margin: auto;
 }
-
+.g-cont{
+  overflow: scroll;
+}
 }
 @media screen and (max-width: 505px){
 .App{
