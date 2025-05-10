@@ -1,6 +1,6 @@
 
-import Menubar from '@/components/menubar.js';
-import Main from '@/components/main.js'
+import Menubar from './components/menubar.js';
+import Main from './components/main.js'
 
 
 export default function HomePage() {
