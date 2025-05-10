@@ -1,6 +1,6 @@
 import { FaStar } from "react-icons/fa6";
 import { IoMdPulse } from "react-icons/io";
-import MyProgress from './components/progess.js';
+import MyProgress from './progess.js';
 
 const Cbr = () =>{
   return(
