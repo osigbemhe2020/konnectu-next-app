@@ -1,6 +1,6 @@
 
-import Formcont from './components/form.js'
-import Body from './components/body.js'
+import Formcont from './form.js'
+import Body from './body.js'
 
 const Main = () => {
   return (
