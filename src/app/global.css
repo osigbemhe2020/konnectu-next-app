@@ -659,7 +659,7 @@ a{
     height:auto;
     display: grid;
     grid-template-columns:100%;
-    padding: 9px 10px 9px 15px ;
+    padding: 9px 5px 9px 5px ;
 }
 .menu-bar {
     display: none;
@@ -687,7 +687,7 @@ a{
   width: 100%;
   padding:0px;
   margin: auto;
-  height: auto;
+  height: 370px;
 }
  innerA,innerB{
   height:auto;
@@ -697,9 +697,6 @@ a{
   height:auto !important;
  }
 
-.bar-chart{
-  width:120%; 
-}
 .cover{
   width: 100%;
   height: auto;
