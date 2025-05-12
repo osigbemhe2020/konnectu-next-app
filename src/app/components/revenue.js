@@ -19,12 +19,11 @@ const Revenue = () => {
            <div><h2 className='blue-sm-text'>Revenue Overview</h2></div>
            <div className="blue-outline">For every month</div>
         </div>
-        <div className="g-cont">
+        <div className='g-cont'>
           <Graph/>
-        </div>
+         </div>
     </div>
   )
 }
-
 
 export default Revenue
