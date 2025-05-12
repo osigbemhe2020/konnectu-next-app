@@ -693,6 +693,10 @@ a{
   height:auto;
  }
 
+ innerA > div,innerB >div{
+  height:auto !important;
+ }
+
 .bar-chart{
   width:120%; 
 }
