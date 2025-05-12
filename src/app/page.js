@@ -1,14 +1,25 @@
-
+"use client";
 import Menubar from './components/menubar.js';
 import Main from './components/main.js'
 
 
 export default function HomePage() {
-  return (
-    <div className="App">
-      <Menubar />
-      <Main />
-   </div>
+  const [showSidebar, setShowSidebar] = useState(false);
+  
+    return (
+      <div className="App">
+        <div className= "hide flex-box">
+                    <img src="/konnectu.png" alt='konnectu'  width={"40px"} height={"40px"} style={{backgroundColor:"white"}}/>
+                    <button className="toggle-btn" onClick={() => {setShowSidebar(!showSidebar);
+          console.log(showSidebar)}}>
+           <CiMenuBurger  style={{fontSize:"20px",color:"white"}}/>
+        </button>
+      </div>
+       
+      <Menubar className={`${showSidebar ? 'show' : ''}`}/>
+      <Main/>
+    </div>
+    
   );
 }
 /*import Image from "next/image";
