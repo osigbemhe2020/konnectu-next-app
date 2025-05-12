@@ -34,10 +34,10 @@ const Box = (props) =>{
 }
 
 
-const Menubar = () => {
+const Menubar = ({className}) => {
   return (
     <>
-      <div className= "menu-bar">
+      <div className={`menu-bar ${className}`}>
         <img src="/konnectu.png" alt='konnectu'  className='pic'/>
         <div className='v-flex'>
              <div className='Top'>
