@@ -770,6 +770,7 @@ a{
   margin: 5px 2px 5px 90px;
 }
 .sub-grid{
+   margin-top:12px;
     display: flex;
    flex-direction: row;
   justify-content: space-between;
@@ -777,12 +778,15 @@ a{
 }
  .orange-box{
     padding:  7px 3px;
-    height: 25px;
-    width: 25px;
+    height: 35px;
+    width: 35px;
  } 
 .orange-box h4{
-  font-size: 12px;
+  font-size: 13px;
 }
+.pe-grids{ 
+    height: auto !important;
+  }
 }
 
  
